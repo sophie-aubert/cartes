@@ -1,4 +1,8 @@
-class Card {
+
+// CECI EST UN MODULE !
+// il représente qu'sune seule carte
+
+export class Card {
     constructor(value, suit) {
       this.value = value;
       this.suit = suit;
